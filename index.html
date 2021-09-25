@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!-- icon -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand navbar-dark fixed-bottom py-2">
+
+      <ul class="navbar-nav nav-justified w-100">
+        <li class="nav-item">
+                    <a href="#profil" class="nav-link">
+                       <i class="lni lni-user lni-lg"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                       <i class="lni lni-help lni-lg"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pendidikan" class="nav-link">
+                        <i class="lni lni-graduation lni-lg"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skill" class="nav-link">
+                        <i class="lni lni-cog lni-lg"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#project" class="nav-link">
+                      <i class="lni lni-customer lni-lg"></i>
+                    </a>
+                </li>
+      </ul>
+    </nav>
+   <!-- Akhir Navbar -->
+   
+   <div class="container text-center">
+     <div class="btn btn-custom1 text-white shadow mt-4"><i class="lni lni-calendar"></i> <span id="tanggalwaktu"></span>  <span id="jam"></span>:<span id="menit"></span>:<span id="detik"></span> WIB</div>
+   </div>
+   
+   
+   
+   <div class="container mt-3" id="profil">
+     <!-- Card -->
+      <div class="card shadow mb-4">
+        <div class="card-header pb-3 text-white">
+           <i class="lni lni-user"></i> Profil Saya  
+        </div>
+        <div class="card-body text-center">
+          <img src="img/aku.jpg" alt="aku" class="rounded-circle shadow" width="120" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <h5 class="card-title">M Adi Tarmizi</h5>
+          <button class="btn btn-custom" data-aos="fade-down-right" data-aos-duration="1500">Front End Developer</button>
+          <div class="mt-3">
+            <a href="https://github.com/maditarmizi" class="btn btn-sosmed shadow" style="margin-right: 1em;" data-aos="fade-right" data-aos-duration="1500">
+              <i class="lni lni-github" style="margin-top: -5px;"></i> 
+            </a>
+            
+            <a href="https://www.instagram.com/adi_dev8080/" class="btn btn-sosmed shadow" style="margin-right: 1em;" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+              <i class="lni lni-instagram" style="margin-top: -5px;"></i> 
+            </a>
+            
+            <a href="https://m.me/m.a.tarmizi.9" class="btn btn-sosmed shadow" data-aos="fade-left" data-aos-duration="1500">
+              <i class="lni lni-facebook-messenger" style="margin-top: -5px;"></i> 
+            </a>
+            
+          </div>
+          <div class="mt-1">
+            <i class="lni lni-map text-primary"></i> Pasuruan, Jawa Timur
+          </div>
+          <div>
+            <i class="lni lni-envelope text-primary"></i> aditarmizi795@gmail.com
+          </div>
+          <div>
+            <i class="lni lni-whatsapp text-primary"></i> +62 83-848-597-807
+           </div>
+          <a href="CV.pdf" class="btn btn-custom mt-2" data-aos="fade-up-left" data-aos-duration="1500">
+            <i class="lni lni-download mt-1"></i> Download CV
+          </a>
+        </div>
+      </div>
+     <!-- Akhir Card -->
+   </div>
+   
+   <!-- About -->
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5A8DE9" fill-opacity="1" d="M0,128L18.5,154.7C36.9,181,74,235,111,229.3C147.7,224,185,160,222,144C258.5,128,295,160,332,144C369.2,128,406,64,443,80C480,96,517,192,554,192C590.8,192,628,96,665,53.3C701.5,11,738,21,775,21.3C812.3,21,849,11,886,37.3C923.1,64,960,128,997,165.3C1033.8,203,1071,213,1108,192C1144.6,171,1182,117,1218,106.7C1255.4,96,1292,128,1329,128C1366.2,128,1403,96,1422,80L1440,64L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
+   
+     <!-- About -->
+     <div class="container-fluid bg-custom" id="about">
+       <div class="row justify-content-center">
+         <div class="col-sm-6">
+           <h2 class="text-title" data-aos="fade-down-right" data-aos-duration="1500">
+             <i class="lni lni-help"></i> Tentang
+           </h2>
+           <p data-aos="fade-down" data-aos-duration="1500">
+             Saya adalah seorang fresh graduate yang memiliki semangat kerja yang tinggi, jujur, disiplin, teliti, pekerja keras, siap bekerja di bawah tekanan dan mau belajar hal hal baru dari perusahaan. Saya yakin bisa mudah beradaptasi dengan pekerjaan saya dan mampu bekerja secara individu maupun team
+           </p>
+         </div>
+       </div>
+     </div>
+     <!-- Akhir About -->
+   
+
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5A8DE9" fill-opacity="1" d="M0,128L18.5,154.7C36.9,181,74,235,111,229.3C147.7,224,185,160,222,144C258.5,128,295,160,332,144C369.2,128,406,64,443,80C480,96,517,192,554,192C590.8,192,628,96,665,53.3C701.5,11,738,21,775,21.3C812.3,21,849,11,886,37.3C923.1,64,960,128,997,165.3C1033.8,203,1071,213,1108,192C1144.6,171,1182,117,1218,106.7C1255.4,96,1292,128,1329,128C1366.2,128,1403,96,1422,80L1440,64L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"></path></svg>
+  <!-- Akhir About -->
+  
+  
+  <!-- Pendidikan -->
+  <div class="container mb-5 mt-3" id="pendidikan" >
+    <div class="card shadow mb-3" data-aos="fade-up" data-aos-duration="1500">
+      <div class="card-header text-white">
+        <i class="lni lni-graduation"></i> Pendidikan 
+      </div>
+      <div class="card-body">
+        <div class="card-title m-0 text-custom">SDN PURWOREJO 1 PASURUAN
+         <sup>
+           <i class="lni lni-timer"></i> 2008 - 2014
+         </sup>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow mb-3" data-aos="fade-up" data-aos-duration="1500">
+      <div class="card-header text-white">
+        <i class="lni lni-graduation"></i> Pendidikan 
+      </div>
+      <div class="card-body">
+        <div class="card-title m-0 text-custom">SMP NEGERI 7 PASURUAN
+         <sup>
+           <i class="lni lni-timer"></i> 2014 - 2017
+         </sup>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow" data-aos="fade-up" data-aos-duration="1500">
+      <div class="card-header text-white">
+        <i class="lni lni-graduation"></i> Pendidikan 
+      </div>
+      <div class="card-body">
+        <div class="card-title m-0 text-custom">MAN KOTA PASURUAN
+         <sup>
+           <i class="lni lni-timer"></i> 2017 - 2020
+         </sup>
+        </div>
+        <div class="text-muted">
+          Jurusan Matematika & Ilmu Pengetahuan Alam
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Alhir Pendidikan -->
+  
+  <!-- Skill -->
+  <section class="skill" id="skill">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-6">
+        <h2 class="text-title" style="color: #273238;">
+             <i class="lni lni-cog"></i> Tools & Skill
+        </h2>
+        </div>
+      </div>
+      <div class="text-editor">
+        <div class="circle-danger" data-aos="zoom-in" data-aos-duration="1500"></div>
+        <div class="circle-warning" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="750"></div>
+        <div class="circle-success" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1000"></div>
+       
+      
+      <div class="row justify-content-center text-center">
+        <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="1500">
+           <img src="img/HTML5.png" alt="">
+        </div>
+        <div class="col-sm-3" data-aos="fade-down-right" data-aos-duration="1500">
+           <img src="img/CSS3.png" alt="">
+        </div>
+        <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="1500">
+           <img src="img/JAVASCRIPT.png" alt="">
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-sm-3" data-aos="fade-down-right" data-aos-duration="1500">
+           <img src="img/BOOTSTRAP5.png" alt="">
+        </div>
+        <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="1500">
+           <img src="img/coreldraw.png" alt="">
+        </div>
+        <div class="col-sm-3" data-aos="fade-down-right" data-aos-duration="1500">
+           <img src="img/excel.png" alt="">
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Skill -->
+  
+  
+  <!-- Project -->
+    <section class="project mt-4" id="project">
+      <div class="container">
+         <div class="row justify-content-center">
+           <div class="col-sm-6">
+             <h2 class="text-title" style="color: #273238;">
+                 <i class="lni lni-customer"></i> Project
+             </h2>
+           </div>
+         </div>
+         
+         <div class="row justify-content-center" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="col-sm-6">
+             <img src="img/data.jpg" class="img-fluid img-thumbnail shadow" alt="data">
+           </div>
+           <div class="col-sm-6">
+             <img src="img/saldo.jpg" class="img-fluid img-thumbnail shadow" alt="data">
+           </div>
+           <h3 class="text-custom text-center">Aplikasi Manajemen Kios Pulsa</h3>
+           <p class="text-center">Aplikasi ini merupakan aplikasi berbasis web yang bertujuan untuk memudahkan user dapat dengan mudah untuk melakukan rekap history/mendata transaksi di dalam database</p>
+           <div class="col-sm-6 text-center">
+             <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#demo"><i class="lni lni-eye"></i> View Demo</button>
+           </div>
+         </div>
+         <!-- end row programming -->
+         
+         
+         <!-- start row editing -->
+         <div class="row justify-content-center text-center" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="col-sm-3">
+             <img src="img/coffe.png" class="img-thumbnail rounded-circle shadow" alt="">
+           </div>
+           <div class="col-sm-3">
+             <img src="img/brownies.png" class="img-thumbnail rounded-circle shadow" alt="">
+           </div>
+           <div class="col-sm-3">
+             <img src="img/cilok.png" class="img-thumbnail rounded-circle shadow" alt="">
+           </div>
+           <h3 class="text-custom text-center">Desain Logo Makanan</h3>
+           <p class="text-center">Label Makanan Merupakan salah satu media iklan yang sangat penting untuk meningkatkan penjualan produk usaha anda dan ini cocok untuk kemasan FOM, Nasi Kotak, Kemasan Plastik mulai dari yang kecil sampai yang cukup besar.</p>
+           <div class="col-sm-12 text-center">
+             <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#logo"> <i class="lni lni-eye"></i> View Demo</button>
+           </div>
+         </div>
+         <!-- end row editing -->
+         
+         
+         <!-- end row img -->
+         <div class="row justify-content-center mt-4" data-aos="zoom-in" data-aos-duration="1500">
+           <div class="col-sm-6">
+             <img src="img/card.jpg" class="img-fluid img-thumbnail shadow" alt="data">
+           </div>
+           <div class="col-sm-6">
+             <img src="img/card2.png" class="img-fluid img-thumbnail shadow" alt="data">
+           </div>
+           <div class="col-sm-6">
+             <img src="img/card3.jpg" class="img-fluid img-thumbnail shadow" alt="data">
+           </div>
+           <div class="col-sm-6">
+             <img src="img/card4.png" class="img-fluid img-thumbnail shadow" alt="data">
+           </div>
+           <h3 class="text-custom text-center">Image Gallery</h3>
+           <p class="text-center">Image Gallery adalah situs pribadi yang menampilkan foto atau gambar dan itu merupakan hasil karya saya pada masa pandemi ini.</p>
+           <div class="col-sm-6 text-center">
+             <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#img"><i class="lni lni-eye"></i> View Demo</button>
+           </div>
+         </div>
+         
+         
+         
+         <!-- end row img -->
+         
+      </div>
+    </section>
+  
+  <!-- Akhir Project -->
+  
+  
+  <!-- Modal Project 1 -->
+  <div class="modal fade" id="demo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            <i class="lni lni-mobile"></i> Info Aplikasi
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+            <ul class="list-group">
+           <li class="list-group-item active text-center" aria-current="true"> <i class="lni lni-android"></i> Fitur Aplikasi</li>
+           <li class="list-group-item">Web Responsive Design</li>
+           <li class="list-group-item">CRUD History Transaksi</li>
+           <li class="list-group-item">CRUD History Saldo</li>
+           <li class="list-group-item">Daftar Harga</li>
+           <li class="list-group-item">Perhitungan Data Penjualan</li>
+         </ul>
+         
+         <ul class="list-group mt-3">
+           <li class="list-group-item active text-center" aria-current="true"> <i class="lni lni-connectdevelop"></i> Dibangun Menggunakan</li>
+           <li class="list-group-item">Codeigniter 3</li>
+           <li class="list-group-item">Bootstrap 4</li>
+           <li class="list-group-item">Template SB Admin2</li>
+           <li class="list-group-item">Datatables Serverside</li>
+           <li class="list-group-item">MySql</li>
+         </ul>
+         
+         <footer class="text-center mt-3">
+           <p>Powered By App Phreakers Cell<br> Copyright &copy;2021 built by - M Adi Tarmizi <i class="lni lni-heart-filled"></i></p>
+         </footer>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="lni lni-cross-circle"></i> Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Modal Project 1 -->
+  	
+  <!-- Modal Project 2 -->
+  <div class="modal fade" id="logo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            <i class="lni lni-mobile"></i> Info Aplikasi
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+         <ul class="list-group">
+           <li class="list-group-item active text-center" aria-current="true"> <i class="lni lni-connectdevelop"></i> Tools</li>
+           <li class="list-group-item">Coreldraw X7</li>
+         </ul>
+         
+         <footer class="text-center mt-3">
+           <p>Copyright Website &copy; 2021 <br> built by - M Adi Tarmizi <i class="lni lni-heart-filled"></i></p>
+         </footer>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="lni lni-cross-circle"></i> Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Modal Project 2 -->
+  
+  
+  <!-- Modal Project 3 -->
+  <div class="modal fade" id="img" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            <i class="lni lni-mobile"></i> Info Aplikasi
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+            <ul class="list-group">
+           <li class="list-group-item active text-center" aria-current="true"> <i class="lni lni-connectdevelop"></i> Tools</li>
+           <li class="list-group-item">PixelLab</li>
+         </ul>
+         
+         <footer class="text-center mt-3">
+           <p>Copyright Website &copy; 2021 <br> built by - M Adi Tarmizi <i class="lni lni-heart-filled"></i></p>
+         </footer>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="lni lni-cross-circle"></i> Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Modal Project 3 -->
+  	
+  
+  
+  
+  <section class="form mt-4" id="form">
+    <div class="container" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="row justify-content-center mb-4">
+        <div class="col-sm-6 text-center mt-4">
+          <h2 class="text-title" style="color: #273238;">
+                 <i class="lni lni-comments-reply"></i> Contact Form
+           </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <i class="lni lni-checkmark-circle"></i>
+              <strong>Terima Kasih! </strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          
+          <form class="needs-validation" novalidate name="contact-form">
+           <div class="form-floating mb-3">
+             <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama" required>
+             <label for="nama">Nama</label>
+             <div class="valid-feedback">
+              Looks good!
+             </div>
+           </div>
+           
+           <div class="form-floating mb-3">
+             <input type="email" class="form-control" id="floatEmail" name="email" placeholder="Email" required>
+             <label for="floatEmail">Email</label>
+           </div>
+           
+           <div class="form-floating mb-3">
+               <input type="number" class="form-control" id="floatTelp" name="nohp" placeholder="No. Telepon" required>
+               <label for="floatTelp">No. Telepon</label>
+               <div class="valid-feedback">
+                Looks good!
+               </div>
+           </div>
+             
+           <div class="form-floating mb-3">
+               <input type="text" class="form-control" id="floatAlamat" name="alamat" placeholder="Alamat" required>
+               <label for="floatAlamat">Alamat</label>
+               <div class="valid-feedback">
+                Looks good!
+               </div>
+           </div>
+           
+           <div class="form-floating mb-3">
+               <textarea type="text" class="form-control" required id="floatPesan" placeholder="Comment" name="pesan"></textarea>
+               <label for="floatTelp">Comment</label>
+               <div class="valid-feedback">
+                Looks good!
+               </div>
+           </div>
+           
+           
+           <div class="form-check form-switch mb-3">
+              <input class="form-check-input" type="checkbox" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck" id="setuju">Apakah anda Setuju dengan syarat dan ketentuan yang berlaku?.</label>
+              <div class="invalid-feedback">
+                 Anda harus setuju sebelum mengirimkan.
+              </div>
+            </div>  
+           <button type="reset" class="btn btn-sm btn-danger"><i class="lni lni-reload"></i> Reset</button>
+           <button type="submit" class="btn btn-sm btn-primary btn-kirim"><i class="lni lni-telegram-original"></i> Send Message</button>
+           
+           <button class="btn btn-sm btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+    
+  
+  
+  
+  
+  
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+    
+    <!-- AOS JS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    
+    <!-- My Js -->
+    
+<script>
+/* Time */
+window.setTimeout("waktu()", 1000);
+/* Date */
+var tw = new Date();
+if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+else (a=tw.getTime());
+tw.setTime(a);
+var tahun= tw.getFullYear ();
+var hari= tw.getDay ();
+var bulan= tw.getMonth ();
+var tanggal= tw.getDate ();
+var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
+var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
+
+document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun;
+
+
+/* Fungsi Time */
+function waktu() {
+      var waktu = new Date();
+      setTimeout("waktu()", 1000);
+      document.getElementById("jam").innerHTML = waktu.getHours();
+      document.getElementById("menit").innerHTML = waktu.getMinutes();
+      document.getElementById("detik").innerHTML = waktu.getSeconds();
+    }
+  
+</script>
+
+
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    
+    
+    </script>
+    
+    
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyzfyPltOgK1AOM7ohhAskBaOUtgym3FAejvnmfuK3w5dP3p8FG9VL20PzV2ni4hqX0/exec';
+  const form = document.forms['contact-form']
+  
+  // eksekusi button 
+  const btnKirim = document.querySelector('.btn-kirim');
+  const btnLoading = document.querySelector('.btn-loading');
+  const myAlert = document.querySelector('.my-alert');
+  
+  
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    // ketika tombol submit di klik
+    // tampilkan tombol loading, hilangkan tombol kirim
+    btnLoading.classList.toggle('d-none');
+    btnKirim.classList.toggle('d-none');
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        // tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        // tampilkan alert
+        myAlert.classList.toggle('d-none');
+        // Reset Form nya
+        form.reset();
+        console.log('Success!', response)
+      })
+      .catch(error => console.error('Error!', error.message))
+  });
+</script>
+  </body>
+</html>
